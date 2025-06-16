@@ -1,0 +1,9 @@
+services:
+  reviewer:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - GITHUB_REPO=${GITHUB_REPO}
