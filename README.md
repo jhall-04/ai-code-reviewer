@@ -36,7 +36,7 @@ create a .env file:
 GITHUB_TOKEN=your-token # Github Auth Token
 GITHUB_REPO=repo-name   # Username/Repo
 NGROK_AUTHTOKEN=ngrok-token # Ngrok Auth Token
-LLM_MO
+LLM_MODEL=desired-model # Local model you want to use
 ```
 3. Run docker container
 ```
