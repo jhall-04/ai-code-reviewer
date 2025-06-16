@@ -90,8 +90,6 @@ ngrok http 8000
 
 - [ ] Support for multi-file diffs and batched reviews
 
-- [ ] Interactive approval/changes flow
-
 - [ ] Scoring and dashboard summary of code quality
 
 # 🤝 Contributing
