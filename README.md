@@ -84,3 +84,18 @@ ngrok http 8000
 - The LLM returns a review comment
 
 - (Optional) The agent parses the comment and posts it inline using GitHub’s API
+
+# 📌 To-Do / Coming Soon
+[] Add full file context to prompts
+
+[] Support for multi-file diffs and batched reviews
+
+[] Interactive approval/changes flow
+
+[] Scoring and dashboard summary of code quality
+
+# 🤝 Contributing
+Pull requests welcome! Open an issue or ping me with suggestions.
+
+# 🛡️ License
+MIT License
